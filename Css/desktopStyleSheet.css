@@ -1,0 +1,73 @@
+body, h1, h2, h3, h4, h5, h6, p{
+margin: 0;
+padding: 0;
+}
+
+p{
+ font-family: 'Lato', sans-serif;
+ line-height: 160%;
+ font-size: 18px;
+ font-weight: 300;
+}
+
+/* main color green - #1ebec0 */
+
+/* ==========================================
+            NAVIGATION FROM HERE
+=========================================== */
+nav{
+  width: 250px;
+  height: 100vh;
+  background-color: #10131a;
+  z-index: 9;
+  position: fixed;
+  border-right: 2px solid #1ebec0;
+  margin-left: -252px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.navToggle{
+  animation-name: showMenu;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+@keyframes showMenu {
+    from {margin-left: -252px;}
+      to {margin-left: 0px;}
+}
+
+#hamburgerMenuHolder{
+  width: 35px;
+  height: 25px;
+  position: fixed;
+  z-index: 10;
+  left: 20px;
+  top: 20px;
+}
+
+#barOne, #barTwo, #barThree {
+    width: 30px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #1ebec0;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.change #barOne {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.change #barTwo {opacity: 0;}
+
+.change #barThree {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}

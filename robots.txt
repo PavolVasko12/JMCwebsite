@@ -1,0 +1,2 @@
+User-agent : *
+sitemap: http://www.examplesite.co.uk/sitemap.xml

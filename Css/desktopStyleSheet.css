@@ -166,6 +166,7 @@ nav ul li a:hover{
 #homepage{
   width:100%;
   height:100vh;
+  min-height: 768px;
   background-image: url(../content/Homepage/LonelyForest.jpg);
   background-size: cover;
   display: flex;
@@ -214,6 +215,7 @@ nav ul li a:hover{
 #leftHolderIntro{
   width: 50%;
   height: 100vh;
+  min-height: 768px;
   background-image: url(../content/introLeftImage.jpg);
   background-size: cover;
   float: left;
@@ -222,13 +224,14 @@ nav ul li a:hover{
 #rightHolderIntro{
   width:50%;
   height: 100vh;
+  min-height: 768px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #rightContentHolderIntro{
-  width:90%;
+  width:80%;
 }
 
 #secondTitleIntro{
@@ -270,6 +273,7 @@ nav ul li a:hover{
 #leftAbout{
   width:50%;
   height: 100vh;
+  min-height: 768px;
   float: left;
   display: flex;
   align-items: center;
@@ -279,13 +283,14 @@ nav ul li a:hover{
 #rightAbout{
   width:50%;
   height:100vh;
+  min-height: 768px;
   background-image: url(../content/aboutImage.jpg);
   background-size: cover;
   float: right;
 }
 
 #textHolderAbout{
-  width:90%;
+  width:80%;
 }
 
 #aboutText{
@@ -293,33 +298,65 @@ nav ul li a:hover{
 }
 
 #textAbout{
-  margin-top: 150px;
+  margin-top: 100px;
 }
-
-
 /* ==========================================
             SERVICES FROM HERE
 =========================================== */
+
 #servicesSection{
   width:100%;
+  height:100vh;
+  min-height:768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 #servicesHolder{
   width:90%;
-  height:100vh;
-  margin: auto;
-  border: 2px solid blue;
+  margin:auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
 
+#serviceTitle{
+  display: block;
+  width:100%;
+  margin-bottom: 100px;
+}
+
+.secondTitleService{
+  color: #7f7f7f;
+  font-family: LeagueSpartan;
+  text-align: center;
+}
+
+.iconService{
+  width: 50%;
+  margin:auto;
+  margin-top: 50px;
+  display: block;
 }
 
 .oneServiceContent{
-  border:2px solid red;
-  width:30%;
+  width: 30%;
 }
 
+.greenTextSection{
+  color:#7edf8e;
+  font-family: Kaushan;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.oneServiceContent p{
+  text-align: center;
+  margin-top: 50px;
+}
 
 
 /* ==========================================
@@ -393,4 +430,3 @@ label:after { content: ": " }
   box-shadow: none;
   cursor: pointer;
 }
-

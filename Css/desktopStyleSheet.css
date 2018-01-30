@@ -36,6 +36,11 @@ p{
   color: #000;
 }
 
+.globalText{
+    font-family: Akkurat;
+    line-height: 35px;
+}
+
 /* ==========================================
             NAVIGATION FROM HERE
 =========================================== */
@@ -193,7 +198,42 @@ nav{
 }
 
 #bottomTextIntro{
-  font-family: Akkurat;
   margin-top: 100px;
+}
+
+/* ==========================================
+            ABOUT US FROM HERE
+=========================================== */
+
+#aboutSection{
+  width: 100%;
+}
+
+#leftAbout{
+  width:50%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#rightAbout{
+  width:50%;
+  height:100vh;
+  background-image: url(../content/aboutImage.jpg);
+  background-size: cover;
+  float: right;
+}
+
+#textHolderAbout{
+  width:90%;
+}
+
+#aboutText{
   line-height: 35px;
+}
+
+#textAbout{
+  margin-top: 150px;
 }

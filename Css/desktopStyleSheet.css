@@ -311,7 +311,6 @@ nav ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid blue;
   margin: auto;
 }
 
@@ -327,7 +326,7 @@ nav ul li a:hover{
 #serviceTitle{
   display: block;
   width:100%;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .secondTitleService{
@@ -345,7 +344,6 @@ nav ul li a:hover{
 
 .oneServiceContent{
   width: 30%;
-  border:2px solid red;
 }
 
 .greenTextSection{
@@ -355,7 +353,80 @@ nav ul li a:hover{
   margin-top: 50px;
 }
 
+.oneServiceContent p{
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 /* ==========================================
             CONTACT US FROM HERE
 =========================================== */
+
+#contactFormSection{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  display: flex;
+}
+
+#contactFormSection .titleSection{
+  color: white;
+}
+
+#holderForContactForm{
+  width: 50%;
+  height: 500px;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+#innerHolderContactForm{
+  width: 90%;
+  margin-top: 150px;
+  margin-left: 5%;
+}
+
+form{
+  width: 60%;
+  margin-left: 5%;
+  height: 100%;
+  overflow: auto;
+}
+
+label{
+  width: 100px;
+  font-family: LeagueSpartan;
+  color: gray;
+  display: block;
+  float: left;
+  margin-top: 40px;
+}
+
+input, textarea{
+  margin-right: 10px;
+  width: 300px;
+  float: right;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 25px;
+  border-radius: 1px;
+  border: none;
+}
+
+label:after { content: ": " }
+
+#submitFormButton{
+  width: 140px;
+  background-color: #d1c23e;
+  box-shadow: 1px 1px 2px gray;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+#submitFormButton:hover{
+  background-color: #c1b543;
+  box-shadow: none;
+  cursor: pointer;
+}

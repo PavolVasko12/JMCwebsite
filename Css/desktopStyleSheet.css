@@ -47,10 +47,10 @@ p{
 nav{
   width: 250px;
   height: 100vh;
-  background-color: #10131a;
+  background-color: black;
   z-index: 9;
   position: fixed;
-  border-right: 2px solid #1ebec0;
+  border-right: 2px solid #d1c23e;
   margin-left: -252px;
   text-align: center;
   padding-top: 100px;
@@ -84,7 +84,7 @@ nav{
     width: 30px;
     height: 4px;
     border-radius: 1px;
-    background-color: #1ebec0;
+    background-color: black;
     margin: 5px 0;
     transition: 0.4s;
 }
@@ -92,6 +92,7 @@ nav{
 .change #barOne {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
+    background-color: white;
 }
 
 .change #barTwo {opacity: 0;}
@@ -99,8 +100,63 @@ nav{
 .change #barThree {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-6px, -8px);
+    background-color: white;
 }
 
+#nav h3{
+  color: white;
+  font-family: Akkurat;
+  font-size: 36px;
+}
+
+hr{
+  width: 80%;
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(165, 165, 165, 0), rgba(165, 165, 165, 0.75), rgba(165, 165, 165, 0));
+}
+
+nav ul{
+list-style-type: none;
+padding: 0px;
+text-align: left;
+}
+
+nav ul li{
+  color: white;
+  font-family: Akkurat;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
+}
+
+nav ul li a{
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  animation-name: navMenuAnimation;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards;
+}
+
+
+@keyframes navMenuAnimation {
+  0%   {color: #d1c23e;}
+  30% {color: white;}
+  50% {color: #d1c23e;}
+  70% {color: white;}
+  100% { color: #d1c23e; }
+}
 /* ==========================================
             HOMEPAGE FROM HERE
 =========================================== */
@@ -237,3 +293,12 @@ nav{
 #textAbout{
   margin-top: 150px;
 }
+
+
+
+
+/* ==========================================
+            CONTACT US FROM HERE
+=========================================== */
+
+

@@ -34,11 +34,13 @@ p{
 .titleSection{
   font-family: LeagueSpartan;
   color: #000;
+  font-size: 2em;
 }
 
 .globalText{
     font-family: Akkurat;
     line-height: 35px;
+    font-size: 1em;
 }
 
 /* ==========================================
@@ -295,6 +297,29 @@ nav ul li a:hover{
 }
 
 
+/* ==========================================
+            SERVICES FROM HERE
+=========================================== */
+#servicesSection{
+  width:100%;
+}
+
+#servicesHolder{
+  width:90%;
+  height:100vh;
+  margin: auto;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.oneServiceContent{
+  border:2px solid red;
+  width:30%;
+}
+
 
 
 /* ==========================================
@@ -368,3 +393,4 @@ label:after { content: ": " }
   box-shadow: none;
   cursor: pointer;
 }
+

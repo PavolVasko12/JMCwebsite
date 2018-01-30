@@ -10,7 +10,31 @@ p{
  font-weight: 300;
 }
 
+@font-face {
+  font-family: Akkurat;
+  src: url(../content/Fonts/Akkurat.ttf);
+}
+
+@font-face {
+  font-family: Kaushan;
+  src: url(../content/Fonts/KaushanScript-Regular.otf);
+}
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(../content/Fonts/LeagueSpartan-Bold.otf);
+}
+
 /* main color green - #1ebec0 */
+
+/* ==========================================
+                COMMON CLASSES
+=========================================== */
+
+.titleSection{
+  font-family: LeagueSpartan;
+  color: #000;
+}
 
 /* ==========================================
             NAVIGATION FROM HERE
@@ -70,4 +94,106 @@ nav{
 .change #barThree {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-6px, -8px);
+}
+
+/* ==========================================
+            HOMEPAGE FROM HERE
+=========================================== */
+
+#homepage{
+  width:100%;
+  height:100vh;
+  background-image: url(../content/Homepage/LonelyForest.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#homepageContentHolder{
+  width: 30%;
+}
+
+#topTextHomepage{
+  font-family: LeagueSpartan;
+  font-size: 150px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  line-height: 120px;
+}
+
+#blackHolderHomepage{
+  height:70px;
+  width:100%;
+  background-color: #000;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bottomTextHomepage{
+  font-family: Akkurat;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+/* ==========================================
+            INTRODUCTION FROM HERE
+=========================================== */
+#introSection{
+  width: 100%;
+}
+
+#leftHolderIntro{
+  width: 50%;
+  height: 100vh;
+  background-image: url(../content/introLeftImage.jpg);
+  background-size: cover;
+  float: left;
+}
+
+#rightHolderIntro{
+  width:50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#rightContentHolderIntro{
+  width:90%;
+}
+
+#secondTitleIntro{
+  font-family: Kaushan;
+  color:#a6a6a6;
+  margin-top:100px;
+}
+
+#iconsHolderIntro{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.iconIntro{
+  margin: auto;
+  flex: 1;
+  width: 100%;
+}
+
+#iconsHolderIntro object{
+  width:15%;
+}
+
+#bottomTextIntro{
+  font-family: Akkurat;
+  margin-top: 100px;
+  line-height: 35px;
 }

@@ -348,12 +348,12 @@ nav ul li a:hover{
 #innerHolderContactForm{
   width: 90%;
   margin-top: 150px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 form{
   width: 60%;
-  margin-left: 5%;
+  margin-left: 3%;
   height: 100%;
   overflow: auto;
 }

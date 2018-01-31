@@ -20,9 +20,9 @@
 
         <div id="homepage">
           <div id="homepageContentHolder">
-            <p id="topTextHomepage">JMC</p>
+            <h1 id="topTextHomepage">JMC</h1>
             <div id="blackHolderHomepage">
-              <p id="bottomTextHomepage">PROJECT CONSULTANCY</p>
+              <h2 id="bottomTextHomepage">PROJECT CONSULTANCY</h2>
             </div>
           </div>
         </div>

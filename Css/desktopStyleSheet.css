@@ -360,6 +360,57 @@ nav ul li a:hover{
 
 
 /* ==========================================
+            PROJECTS FROM HERE
+=========================================== */
+#projectsSection{
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+
+#projectsHolder{
+  width:90%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.globalTextProjects{
+   font-family: Akkurat;
+    line-height: 35px;
+    font-size: 15px;
+    line-height: 150%;
+    padding-bottom: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.oneProjectContent{
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.secondTitleProjects{
+  font-family: LeagueSpartan;
+  color: #f49385;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 3%;
+}
+
+.imagesOnTheProject{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+
+
+/* ==========================================
             CONTACT US FROM HERE
 =========================================== */
 
@@ -373,6 +424,7 @@ nav ul li a:hover{
 
 #contactFormSection .titleSection{
   color: white;
+  margin-bottom: 20px;
 }
 
 #holderForContactForm{

@@ -6,6 +6,6 @@
     </div>
   </div>
   <div id="rightJourney">
-  	<img id="peopleImage" src="content/PeopleIcon.png" alt="JMC consulting - We are Journey image of a people">
+  	<img id="peopleImage" src="content/peopleIcon.png" alt="JMC consulting - We are Journey image of a people" >
   </div>
 </div>

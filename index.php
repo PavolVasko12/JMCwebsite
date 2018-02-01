@@ -20,24 +20,27 @@
 
         <div id="homepage">
           <div id="homepageContentHolder">
-            <p id="topTextHomepage">JMC</p>
+            <h1 id="topTextHomepage">JMC</h1>
             <div id="blackHolderHomepage">
-              <p id="bottomTextHomepage">PROJECT CONSULTANCY</p>
+              <h2 id="bottomTextHomepage">PROJECT CONSULTANCY</h2>
             </div>
           </div>
         </div>
 
     	<!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
-    	<?php require_once('introduction.php'); ?>
+    	<!-- <?php require_once('introduction.php'); ?> -->
 
+        <!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
+        <?php require_once('weAreJourney.php'); ?>
+       
     	<!-- ---------------- ABOUT US FROM HERE ----------------- -->
     	<?php require_once('aboutUs.php'); ?>
-
+     
     	<!-- ---------------- SERVICES FROM HERE ----------------- -->
     	<?php require_once('services.php'); ?>
 
     	<!-- ---------------- PROJETS FROM HERE ----------------- -->
-    	<?php require_once('projects.php'); ?>
+    	<!-- <?php require_once('projects.php'); ?> -->
 
     	<!-- ---------------- CONTACT FROM HERE ----------------- -->
     	<?php require_once('contact.php'); ?>

@@ -25,8 +25,6 @@ p{
   src: url(../content/Fonts/LeagueSpartan-Bold.otf);
 }
 
-/* main color green - #1ebec0 */
-
 /* ==========================================
                 COMMON CLASSES
 =========================================== */
@@ -43,6 +41,12 @@ p{
     font-size: 1em;
 }
 
+h4{
+  font-family: LeagueSpartan;
+  color: white;
+  font-size: 1em;
+}
+
 /* ==========================================
             NAVIGATION FROM HERE
 =========================================== */
@@ -52,7 +56,7 @@ nav{
   background-color: black;
   z-index: 9;
   position: fixed;
-  border-right: 2px solid #d1c23e;
+  border-right: 2px solid gray;
   margin-left: -252px;
   text-align: center;
   padding-top: 100px;
@@ -61,11 +65,11 @@ nav{
 .navToggle{
   animation-name: showMenu;
   animation-duration: .5s;
-  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
-   -moz-animation-fill-mode:forwards; /*FF 5+*/
-   -o-animation-fill-mode:forwards; /*Not implemented yet*/
-   -ms-animation-fill-mode:forwards; /*IE 10+*/
-   animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation-fill-mode:forwards;
+   -moz-animation-fill-mode:forwards;
+   -o-animation-fill-mode:forwards;
+   -ms-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
 }
 
 @keyframes showMenu {
@@ -86,7 +90,7 @@ nav{
     width: 30px;
     height: 4px;
     border-radius: 1px;
-    background-color: black;
+    background-color: gray;
     margin: 5px 0;
     transition: 0.4s;
 }
@@ -114,8 +118,8 @@ nav{
 hr{
   width: 80%;
   border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(165, 165, 165, 0), rgba(165, 165, 165, 0.75), rgba(165, 165, 165, 0));
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(165, 165, 165, 0), rgba(165, 165, 165, 0.75), rgba(165, 165, 165, 0));
 }
 
 nav ul{
@@ -153,11 +157,11 @@ nav ul li a:hover{
 
 
 @keyframes navMenuAnimation {
-  0%   {color: #d1c23e;}
+  0%   {color: gray;}
   30% {color: white;}
-  50% {color: #d1c23e;}
+  50% {color: gray;}
   70% {color: white;}
-  100% { color: #d1c23e; }
+  100% { color: gray; }
 }
 /* ==========================================
             HOMEPAGE FROM HERE
@@ -167,8 +171,9 @@ nav ul li a:hover{
   width:100%;
   height:100vh;
   min-height: 768px;
-  background-image: url(../content/Homepage/LonelyForest.jpg);
-  background-size: cover;
+  /*background-image: url(../content/Homepage/LonelyForest.jpg);
+  background-size: cover; */
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -206,8 +211,58 @@ nav ul li a:hover{
 }
 
 /* ==========================================
-            INTRODUCTION FROM HERE
+            WE ARE JOURNEY FROM HERE - PAV
 =========================================== */
+
+#weAreJourneySection{
+  width: 1200px;
+  max-width: 80%;
+  padding: 300px 10% 350px 10%;
+  margin: auto;
+}
+
+#leftJourney{
+  width:50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#rightJourney{
+  width:50%;
+  height: auto;
+  float: right;
+}
+
+#textHolderJourney{
+  width: 80%;
+  margin-right: 20%;
+}
+
+#JourneyText{
+  line-height: 35px;
+}
+
+#textJourney{
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 160%;
+  font-weight: bold;
+  color: gray;
+}
+
+#peopleImage{
+  width: 55%;
+  padding-top: 20px;
+  margin-left: 5%;
+  height: auto;
+}
+
+/* ==========================================
+            INTRODUCTION FROM HERE
+===========================================
 #introSection{
   width: 100%;
 }
@@ -260,11 +315,64 @@ nav ul li a:hover{
 
 #bottomTextIntro{
   margin-top: 100px;
+} */
+
+/* ==========================================
+            ABOUT US FROM HERE - PAV
+=========================================== */
+
+#aboutSection{
+  width: 1200px;
+  background-color: #efefef;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  padding-top: 150px;
+  overflow: auto;
+  padding-bottom: 150px;
 }
+
+#leftAbout{
+  width:50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+#rightAbout{
+  width:50%;
+  height: auto;
+  float: right;
+}
+
+#textHolderAbout{
+  width: 80%;
+  margin-right: 20%;
+}
+
+#aboutText{
+  line-height: 35px;
+}
+
+#textAbout{
+  margin-top: 20px;
+  color: gray;
+}
+
+#cubeImage{
+  width: 40%;
+  padding-top: 80px;
+  margin-left: 10%;
+  height: auto;
+}
+
 
 /* ==========================================
             ABOUT US FROM HERE
-=========================================== */
+===========================================
 
 #aboutSection{
   width: 100%;
@@ -299,10 +407,13 @@ nav ul li a:hover{
 
 #textAbout{
   margin-top: 100px;
-}
+} */
+
+
+
 /* ==========================================
             SERVICES FROM HERE
-=========================================== */
+===========================================
 
 #servicesSection{
   width:100%;
@@ -356,48 +467,171 @@ nav ul li a:hover{
 .oneServiceContent p{
   text-align: center;
   margin-top: 50px;
+} */
+
+/* ==========================================
+            SERVICES FROM HERE - PAV
+=========================================== */
+
+#servicesSection{
+  width:100%;
+  min-height:768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
+
+=========================================== */
+
+=======
+#servicesHolder{
+  width: 1200px;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#serviceTitle{
+  display: block;
+  width:100%;
+  margin-bottom: 100px;
+}
+
+.secondTitleService{
+  color: #7f7f7f;
+  font-family: LeagueSpartan;
+  text-align: center;
+}
+
+.iconService{
+  width: 100px;
+  height: auto;
+  margin:auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.oneServiceContent{
+  width: 30%;
+}
+
+.greenTextSection{
+  color:#7edf8e;
+  font-family: Kaushan;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.oneServiceContent p{
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 30%;
+}
+
+
 
 /* ==========================================
             PROJECTS FROM HERE
-=========================================== */
+===========================================
+#projectsSection{
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+
+#projectsHolder{
+  width:90%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.globalTextProjects{
+   font-family: Akkurat;
+    line-height: 35px;
+    font-size: 15px;
+    line-height: 150%;
+    padding-bottom: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.oneProjectContent{
+  width: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.secondTitleProjects{
+  font-family: LeagueSpartan;
+  color: #f49385;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding-left: 3%;
+}
+
+.imagesOnTheProject{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
 
 
 
-
-/* ==========================================
+==========================================
             CONTACT US FROM HERE
 =========================================== */
 
 #contactFormSection{
   width: 100%;
-  height: 800px;
-  background-color: black;
+  height: auto;
+  padding-bottom: 80px;
+  background-color: #383838;
   display: flex;
 }
 
 #contactFormSection .titleSection{
   color: white;
+  margin-bottom: 20px;
 }
 
 #holderForContactForm{
-  width: 50%;
+  width: 1200px;
+  max-width: 80%;
   height: 500px;
-  float: left;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-#innerHolderContactForm{
-  width: 90%;
-  margin-top: 150px;
-  margin-left: 5%;
+.journey{
+  float: right;
+  margin-top: -20px;
+  letter-spacing: 5px;
+}
+
+#journeyBeginsText{
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 form{
-  width: 60%;
-  margin-left: 5%;
-  height: 100%;
+  width: 450px;
+  margin-left: 3%;
+  height: 450px;
   overflow: auto;
 }
 
@@ -425,14 +659,64 @@ label:after { content: ": " }
 
 #submitFormButton{
   width: 140px;
-  background-color: #d1c23e;
+  background-color: gray;
   box-shadow: 1px 1px 2px gray;
   margin-bottom: 20px;
   margin-right: 10px;
+  transition: 1s;
 }
 
 #submitFormButton:hover{
-  background-color: #c1b543;
+  background-color: darkgray;
   box-shadow: none;
   cursor: pointer;
+}
+
+#requiredFieldsMessage, #errorMessage{
+  color: white;
+  background-color: #ef5656;
+  border-left: 4px solid darkred;
+  border-radius: 3px;
+  padding: 3px 0px 3px 3px;
+  text-align: left;
+  width: 250px;
+  display: none;
+  max-width: 100%;
+  margin-top: -100px;
+}
+
+#successFormMessagePHP{
+  color: white;
+  background-color: #079e3c;
+  border-left: 4px solid #386031;
+  border-radius: 3px;
+  padding: 3px 0px 3px 3px;
+  text-align: left;
+  width: 350px;
+  max-width: 100%;
+  margin-top: -100px;
+}
+
+#contactFormJMCtext{
+  font-family: LeagueSpartan;
+  font-size: 120px;
+  color: #fff;
+  float: right;
+  line-height: 0px;
+  width: 200px;
+  text-align: right;
+  margin-right: 5%;
+}
+
+#socialIconsHolder{
+width: 120px;
+height: 42px;
+float: right;
+}
+
+.socialIcons{
+  height: 40px;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }

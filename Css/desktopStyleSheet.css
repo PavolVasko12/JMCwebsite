@@ -217,7 +217,7 @@ nav ul li a:hover{
 #weAreJourneySection{
   width: 1200px;
   max-width: 80%;
-  padding: 300px 10% 500px 10%;
+  padding: 300px 10% 350px 10%;
   margin: auto;
 }
 
@@ -327,6 +327,9 @@ nav ul li a:hover{
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
+  padding-top: 150px;
+  overflow: auto;
+  padding-bottom: 150px;
 }
 
 #leftAbout{
@@ -471,7 +474,6 @@ nav ul li a:hover{
 
 #servicesSection{
   width:100%;
-  height:100vh;
   min-height:768px;
   display: flex;
   align-items: center;

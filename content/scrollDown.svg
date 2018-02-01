@@ -9,7 +9,7 @@
 <path class="st0" d="M47.5,128.5h-20c-13.8,0-25-11.2-25-25v-76c0-13.8,11.2-25,25-25h20c13.8,0,25,11.2,25,25v76
 	C72.5,117.2,61.2,128.5,47.5,128.5z">
 </path>
-<circle class="st1" cx="37.5" cy="30.5" r="5">
+<circle class="st1" cx="37.5" cy="30.5" r="7">
 	<animate attributeType="XML" attributeName="cy" from="30.5" to="110" dur="1s" repeatCount="indefinite"/>
 	<animate id="animation1" attributeName="opacity" values="1;0" dur="1s"
              repeatCount="indefinite"/>

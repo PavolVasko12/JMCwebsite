@@ -37,7 +37,7 @@
     	<?php require_once('services.php'); ?>
 
     	<!-- ---------------- PROJETS FROM HERE ----------------- -->
-    	<?php require_once('projects.php'); ?>
+    	<!-- <?php require_once('projects.php'); ?> -->
 
     	<!-- ---------------- CONTACT FROM HERE ----------------- -->
     	<?php require_once('contact.php'); ?>

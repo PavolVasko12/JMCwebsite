@@ -43,6 +43,12 @@ p{
     font-size: 1em;
 }
 
+h4{
+  font-family: LeagueSpartan;
+  color: white;
+  font-size: 1em;
+}
+
 /* ==========================================
             NAVIGATION FROM HERE
 =========================================== */
@@ -417,8 +423,8 @@ nav ul li a:hover{
 #contactFormSection{
   width: 100%;
   height: auto;
-  padding-bottom: 50px;
-  background-color: black;
+  padding-bottom: 70px;
+  background-color: #383838;
   display: flex;
 }
 
@@ -428,23 +434,30 @@ nav ul li a:hover{
 }
 
 #holderForContactForm{
-  width: 50%;
+  width: 90%;
   height: 500px;
-  float: left;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
-#innerHolderContactForm{
-  width: 90%;
-  margin-top: 150px;
-  margin-left: 10%;
+.journey{
+  float: right;
+  margin-top: -20px;
+  letter-spacing: 5px;
+}
+
+#journeyBeginsText{
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 form{
   width: 450px;
   margin-left: 3%;
-  height: 100%;
+  height: 450px;
   overflow: auto;
 }
 
@@ -472,14 +485,15 @@ label:after { content: ": " }
 
 #submitFormButton{
   width: 140px;
-  background-color: #d1c23e;
+  background-color: gray;
   box-shadow: 1px 1px 2px gray;
   margin-bottom: 20px;
   margin-right: 10px;
+  transition: 1s;
 }
 
 #submitFormButton:hover{
-  background-color: #c1b543;
+  background-color: darkgray;
   box-shadow: none;
   cursor: pointer;
 }
@@ -494,12 +508,10 @@ label:after { content: ": " }
   width: 250px;
   display: none;
   max-width: 100%;
-  margin-top: 50px;
+  margin-top: -100px;
 }
 
 #successFormMessagePHP{
-  padding: 0px;
-  margin: 0px;
   color: white;
   background-color: #079e3c;
   border-left: 4px solid #386031;
@@ -508,19 +520,30 @@ label:after { content: ": " }
   text-align: left;
   width: 350px;
   max-width: 100%;
-  margin-top: 50px;
+  margin-top: -100px;
 }
 
 #contactFormJMCtext{
   font-family: LeagueSpartan;
   font-size: 120px;
   color: #fff;
-  margin: 0;
   float: right;
-  line-height: 120px;
-  margin-top: 500px;
-  width: 100%;
+  line-height: 0px;
+  width: 200px;
   text-align: right;
   margin-right: 5%;
+}
+
+#socialIconsHolder{
+width: 120px;
+height: 42px;
+float: right;
+}
+
+.socialIcons{
+  height: 40px;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 

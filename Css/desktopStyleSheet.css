@@ -46,7 +46,6 @@ h4{
   color: white;
   font-size: 1em;
 }
-
 /* ==========================================
             NAVIGATION FROM HERE
 =========================================== */
@@ -177,10 +176,12 @@ nav ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #homepageContentHolder{
   width: 30%;
+  position: relative;
 }
 
 #topTextHomepage{
@@ -208,6 +209,14 @@ nav ul li a:hover{
   color: #fff;
   text-align: center;
   margin: 0;
+}
+
+#scrollDownHomepage{
+  display: block;
+  width:2%;
+  margin:auto;
+  position: absolute;
+  bottom: 0;
 }
 
 /* ==========================================
@@ -482,9 +491,6 @@ nav ul li a:hover{
   margin: auto;
 }
 
-=========================================== */
-
-=======
 #servicesHolder{
   width: 1200px;
   max-width: 80%;
@@ -538,7 +544,7 @@ nav ul li a:hover{
 
 /* ==========================================
             PROJECTS FROM HERE
-===========================================
+=========================================== */
 #projectsSection{
   width: 100%;
   margin-bottom: 100px;
@@ -587,7 +593,7 @@ nav ul li a:hover{
 
 
 
-==========================================
+/*==========================================
             CONTACT US FROM HERE
 =========================================== */
 

@@ -25,6 +25,8 @@
               <h2 id="bottomTextHomepage">PROJECT CONSULTANCY</h2>
             </div>
           </div>
+          <object data="content/scrollDown.svg" type="image/svg+xml" id="scrollDownHomepage">
+          </object>
         </div>
 
     	<!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
@@ -32,10 +34,10 @@
 
         <!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
         <?php require_once('weAreJourney.php'); ?>
-       
+
     	<!-- ---------------- ABOUT US FROM HERE ----------------- -->
     	<?php require_once('aboutUs.php'); ?>
-     
+
     	<!-- ---------------- SERVICES FROM HERE ----------------- -->
     	<?php require_once('services.php'); ?>
 

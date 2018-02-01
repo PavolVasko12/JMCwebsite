@@ -28,7 +28,10 @@
         </div>
 
     	<!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
-    	<?php require_once('introduction.php'); ?>
+    	<!-- <?php require_once('introduction.php'); ?> -->
+
+        <!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
+        <?php require_once('weAreJourney.php'); ?>
 
     	<!-- ---------------- ABOUT US FROM HERE ----------------- -->
     	<?php require_once('aboutUs.php'); ?>

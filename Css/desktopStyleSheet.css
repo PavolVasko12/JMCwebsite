@@ -157,11 +157,11 @@ nav ul li a:hover{
 
 
 @keyframes navMenuAnimation {
-  0%   {color: #d1c23e;}
+  0%   {color: gray;}
   30% {color: white;}
-  50% {color: #d1c23e;}
+  50% {color: gray;}
   70% {color: white;}
-  100% { color: #d1c23e; }
+  100% { color: gray; }
 }
 /* ==========================================
             HOMEPAGE FROM HERE
@@ -211,8 +211,58 @@ nav ul li a:hover{
 }
 
 /* ==========================================
-            INTRODUCTION FROM HERE
+            WE ARE JOURNEY FROM HERE - PAV
 =========================================== */
+
+#weAreJourneySection{
+  width: 1200px;
+  max-width: 80%;
+  padding: 300px 10% 500px 10%;
+  margin: auto;
+}
+
+#leftJourney{
+  width:50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#rightJourney{
+  width:50%;
+  height: auto;
+  float: right;
+}
+
+#textHolderJourney{
+  width: 80%;
+  margin-right: 20%;
+}
+
+#JourneyText{
+  line-height: 35px;
+}
+
+#textJourney{
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 160%;
+  font-weight: bold;
+  color: gray;
+}
+
+#peopleImage{
+  width: 55%;
+  padding-top: 20px;
+  margin-left: 5%;
+  height: auto;
+}
+
+/* ==========================================
+            INTRODUCTION FROM HERE
+===========================================
 #introSection{
   width: 100%;
 }
@@ -265,11 +315,60 @@ nav ul li a:hover{
 
 #bottomTextIntro{
   margin-top: 100px;
+} */
+
+/* ==========================================
+            ABOUT US FROM HERE - PAV
+=========================================== */
+
+#aboutSection{
+  width: 1200px;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
 }
+
+#leftAbout{
+  width:50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+#rightAbout{
+  width:50%;
+  height: auto;
+  float: right;
+}
+
+#textHolderAbout{
+  width: 80%;
+  margin-right: 20%;
+}
+
+#aboutText{
+  line-height: 35px;
+}
+
+#textAbout{
+  margin-top: 20px;
+  color: gray;
+}
+
+#cubeImage{
+  width: 40%;
+  padding-top: 80px;
+  margin-left: 10%;
+  height: auto;
+}
+
 
 /* ==========================================
             ABOUT US FROM HERE
-=========================================== */
+=========================================== 
 
 #aboutSection{
   width: 100%;
@@ -304,10 +403,13 @@ nav ul li a:hover{
 
 #textAbout{
   margin-top: 100px;
-}
+} */
+
+
+
 /* ==========================================
             SERVICES FROM HERE
-=========================================== */
+=========================================== 
 
 #servicesSection{
   width:100%;
@@ -361,7 +463,71 @@ nav ul li a:hover{
 .oneServiceContent p{
   text-align: center;
   margin-top: 50px;
+} */
+
+/* ==========================================
+            SERVICES FROM HERE - PAV
+=========================================== */
+
+#servicesSection{
+  width:100%;
+  height:100vh;
+  min-height:768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
+
+#servicesHolder{
+  width: 1200px;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#serviceTitle{
+  display: block;
+  width:100%;
+  margin-bottom: 100px;
+}
+
+.secondTitleService{
+  color: #7f7f7f;
+  font-family: LeagueSpartan;
+  text-align: center;
+}
+
+.iconService{
+  width: 100px;
+  height: auto;
+  margin:auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.oneServiceContent{
+  width: 30%;
+}
+
+.greenTextSection{
+  color:#7edf8e;
+  font-family: Kaushan;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.oneServiceContent p{
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 30%;
+} 
+
 
 
 /* ==========================================
@@ -422,7 +588,7 @@ nav ul li a:hover{
 #contactFormSection{
   width: 100%;
   height: auto;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   background-color: #383838;
   display: flex;
 }
@@ -434,15 +600,15 @@ nav ul li a:hover{
 
 #holderForContactForm{
   width: 1200px;
-  max-width: 100%;
+  max-width: 80%;
   height: 500px;
   align-items: center;
   justify-content: center;
   margin: auto;
   padding-bottom: 70px;
   padding-top: 70px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .journey{

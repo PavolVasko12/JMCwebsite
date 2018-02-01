@@ -11,6 +11,6 @@ Whatever the scale of your project or development, its likely that one of our te
     </div>
   </div>
   <div id="rightAbout">
-  	<img id="cubeImage" src="content/Cube.jpg" alt="JMC consulting - about us image of a cube">
+  	<img id="cubeImage" src="content/Cube.svg" alt="JMC consulting - about us image of a cube">
   </div>
 </div>

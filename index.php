@@ -32,10 +32,10 @@
 
         <!-- ---------------- INTRODUCTION FROM HERE ----------------- -->
         <?php require_once('weAreJourney.php'); ?>
-        <hr>
+       
     	<!-- ---------------- ABOUT US FROM HERE ----------------- -->
     	<?php require_once('aboutUs.php'); ?>
-        <hr>
+     
     	<!-- ---------------- SERVICES FROM HERE ----------------- -->
     	<?php require_once('services.php'); ?>
 

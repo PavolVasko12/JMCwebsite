@@ -213,10 +213,10 @@ nav ul li a:hover{
 
 #scrollDownHomepage{
   display: block;
-  width:2%;
+  width: 1.6%;
   margin:auto;
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
 }
 
 /* ==========================================
@@ -225,8 +225,10 @@ nav ul li a:hover{
 
 #weAreJourneySection{
   width: 1200px;
+  height: 100vh;
   max-width: 80%;
-  padding: 300px 10% 350px 10%;
+  /*padding: 300px 10% 350px 10%;*/
+  padding: 0px 10% 0px 10%;
   margin: auto;
 }
 
@@ -237,12 +239,14 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   text-align: left;
+  padding-top: 35vh;
 }
 
 #rightJourney{
   width:50%;
   height: auto;
   float: right;
+  padding-top: 35vh
 }
 
 #textHolderJourney{
@@ -332,14 +336,15 @@ nav ul li a:hover{
 
 #aboutSection{
   width: 1200px;
+  height: 100vh;
   background-color: #efefef;
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
-  padding-top: 150px;
+  /*padding-top: 150px;*/
   overflow: auto;
-  padding-bottom: 150px;
+  /*padding-bottom: 150px;*/
 }
 
 #leftAbout{
@@ -349,12 +354,14 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   text-align: justify;
+  padding-top: 30vh;
 }
 
 #rightAbout{
   width:50%;
   height: auto;
   float: right;
+  padding-top: 30vh;
 }
 
 #textHolderAbout{
@@ -484,6 +491,7 @@ nav ul li a:hover{
 
 #servicesSection{
   width:100%;
+  height: 100vh;
   min-height:768px;
   display: flex;
   align-items: center;

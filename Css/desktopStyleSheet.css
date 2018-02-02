@@ -180,19 +180,18 @@ nav ul li a:hover{
 }
 
 #homepageContentHolder{
-  width: 40%;
+  width: 100%;
   position: relative;
 }
 
 #topTextHomepage{
   font-family: LeagueSpartan;
-  font-size: 90px;
+  font-size: 110px;
   text-align: center;
   color: #fff;
   margin: auto;
   line-height: 120px;
 }
-
 #blackHolderHomepage{
   height:70px;
   width:100%;
@@ -267,8 +266,8 @@ nav ul li a:hover{
 }
 
 #peopleImage{
-  width: 55%;
-  padding-top: 20px;
+  width: 65%;
+  padding-top: 10px;
   margin-left: 5%;
   height: auto;
 }

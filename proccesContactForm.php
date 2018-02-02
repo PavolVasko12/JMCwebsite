@@ -9,7 +9,7 @@ $formErrors = false;
 $headers = 'From: info@pavolvasko.co.uk' . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-$to = "pavol.vasko.sk@gmail.com";
+$to = "james.murdoch@live.co.uk";
 $subject = "Pavol Vasko - Online form";
 $message = "Name: " . $name . "\n\nMessage: \n" . $enquiry;
 
@@ -26,7 +26,7 @@ $message = "Name: " . $name . "\n\nMessage: \n" . $enquiry;
         endif;
 
     if(!($formErrors)) :
-        if(mail('info@pavolvasko.co.uk', $subject, $message, $headers)):
+        if(mail($to, $subject, $message, $headers)):
             $successMsg = "Thank you, We will be in contact shortly";
             else:
             $errorMsg = "Error sending message!";

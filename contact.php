@@ -8,7 +8,7 @@
 	          <input type="text" class="contactUsInput" id="name" name="firstName" placeholder="">
 	          <label id="labelErrorEmailTextRed" for="email">EMAIL</label>
 	          <input type="email" class="contactUsInput" id="email" name="email" placeholder="">
-	          <label id="labelErrorEnquiryTextRed" for="messageContactUs">ENQUIRY</label>
+	          <label id="labelErrorEnquiryTextRed" for="messageContactUs">MESSAGE</label>
 	          <textarea id="messageContactUs" placeholder="" rows="5" name="messageBox"></textarea>
 	          <input id="submitFormButton" type="submit" name="action" value="SEND">   
        		</form>

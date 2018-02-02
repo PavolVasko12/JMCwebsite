@@ -22,7 +22,7 @@
           <div id="homepageContentHolder">
             <h1 id="topTextHomepage">JOURNEY</h1>
             <div id="blackHolderHomepage">
-              <h2 id="bottomTextHomepage">PROJECT CONSULTANCY</h2>
+              <h2 id="bottomTextHomepage">PROJECT CONSULTING</h2>
             </div>
           </div>
           <object data="content/scrollDown.svg" type="image/svg+xml" id="scrollDownHomepage">

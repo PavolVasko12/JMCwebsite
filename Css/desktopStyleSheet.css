@@ -661,6 +661,10 @@ input, textarea{
   border: none;
 }
 
+textarea{
+  resize: none;
+}
+
 label:after { content: ": " }
 
 #submitFormButton{

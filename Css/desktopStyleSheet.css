@@ -180,16 +180,16 @@ nav ul li a:hover{
 }
 
 #homepageContentHolder{
-  width: 30%;
+  width: 40%;
   position: relative;
 }
 
 #topTextHomepage{
   font-family: LeagueSpartan;
-  font-size: 150px;
-  color: #fff;
+  font-size: 90px;
   text-align: center;
-  margin: 0;
+  color: #fff;
+  margin: auto;
   line-height: 120px;
 }
 

@@ -225,10 +225,14 @@ nav ul li a:hover{
 #weAreJourneySection{
   width: 1200px;
   height: 100vh;
+  min-height: 768px;
   max-width: 80%;
   /*padding: 300px 10% 350px 10%;*/
   padding: 0px 10% 0px 10%;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #leftJourney{
@@ -238,14 +242,12 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   text-align: left;
-  padding-top: 35vh;
 }
 
 #rightJourney{
   width:50%;
   height: auto;
   float: right;
-  padding-top: 35vh
 }
 
 #textHolderJourney{
@@ -341,11 +343,15 @@ nav ul li a:hover{
 #aboutSection{
   width: 1200px;
   height: 100vh;
+  min-height: 768px;
   background-color: #efefef;
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #leftAbout{
@@ -355,14 +361,14 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   text-align: justify;
-  padding-top: 30vh;
 }
 
 #rightAbout{
   width:50%;
   height: auto;
-  float: right;
-  padding-top: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #textHolderAbout{
@@ -380,9 +386,7 @@ nav ul li a:hover{
 }
 
 #cubeImage{
-  width: 40%;
-  padding-top: 80px;
-  margin-left: 10%;
+  width: 60s%;
   height: auto;
 }
 

@@ -12,12 +12,17 @@
     font-size: 25px;
   }
 
+  #scrollDownHomepage{
+    width:25px;
+  }
+
   /* ==========================================
               WE ARE JOURNEY FROM HERE - PAV
   =========================================== */
 
   #weAreJourneySection{
     height:auto;
+    display:block;
   }
 
   #leftJourney{
@@ -57,9 +62,24 @@
               ABOUT US FROM HERE - PAV
   =========================================== */
 
+  #aboutSection{
+    display: block;
+  }
+
   #leftAbout{
     padding-top:0;
     margin-top: 50px;
+    width:90%;
+  }
+
+  #textHolderAbout{
+    margin-right: 0;
+  }
+
+  #rightAbout{
+    width:90%;
+    position: relative;
+    bottom: -25px;
   }
 
   /* ==========================================

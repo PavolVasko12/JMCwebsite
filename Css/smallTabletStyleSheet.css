@@ -1,13 +1,16 @@
 @media screen and (max-width: 800px) {
 
 	/* ==========================================
-							WE ARE JOURNEY FROM HERE - PAV
-	=========================================== */
+              HOMEPAGE FROM HERE
+  =========================================== */
 
-	#weAreJourneySection{
-		height:auto;
+	#scrollDownHomepage{
+		width:25px;
 	}
 
+	/* ==========================================
+							WE ARE JOURNEY FROM HERE - PAV
+	=========================================== */
 	#leftJourney{
 		padding-top: 0;
 		margin-top: 50px;
@@ -27,5 +30,19 @@
 	#peopleImage{
 		width:100%;
 	}
+
+
+
+	/* ==========================================
+							ABOUT US FROM HERE - PAV
+	=========================================== */
+
+
+	#leftAbout{
+		padding-top:0;
+		margin-top: 50px;
+	}
+
+
 
 	} /* END OF THE MEDIA QUERY 800PX */

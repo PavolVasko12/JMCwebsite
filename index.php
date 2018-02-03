@@ -45,7 +45,7 @@
     	<!-- <?php require_once('projects.php'); ?> -->
 
     	<!-- ---------------- CONTACT FROM HERE ----------------- -->
-    	<!-- <?php require_once('contact.php'); ?> -->
+    	 <?php require_once('contact.php'); ?> 
 
 <!-- End of the body wrraper -->
 </div>

@@ -46,7 +46,7 @@
   }
 
   #peopleImage{
-    width:100%;
+    width:90%;
     padding-top: 0;
     margin-left: 0;
     margin-top: 25px;
@@ -54,8 +54,25 @@
   }
 
   /* ==========================================
+              ABOUT US FROM HERE - PAV
+  =========================================== */
+
+  #leftAbout{
+    padding-top:0;
+    margin-top: 50px;
+  }
+
+  /* ==========================================
               SERVICES FROM HERE - PAV
   =========================================== */
+
+  #servicesSection{
+    height:auto;
+  }
+
+  #servicesHolder{
+    margin-bottom:50px;
+  }
 
   #serviceTitle{
     text-align: left;

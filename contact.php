@@ -16,8 +16,8 @@
 			<?php if (isset($errorMsg)) { echo '<p id="errorMessage">', $errorMsg , '</p>'; } ?>
 			<?php if (isset($successMsg)) { echo '<p id="successFormMessagePHP">', $successMsg , '</p>'; } ?>
 			<div id="socialIconsHolder">
-				<img class="socialIcons" src="content/ICONS/instagramIconWhite.png" alt="JMC consultancy - Icon for instagram">
-				<img class="socialIcons" src="content/ICONS/linkedin_Logo.png" alt="JMC consultancy - Icon for linkedin">
+				<a href="https://www.instagram.com/?hl=en" target="_blank" alt="Link to the instagram website - JMC consulting"><img class="socialIcons" src="content/ICONS/instagramIconWhite.png" alt="JMC consultancy - Icon for instagram"></a>
+				<a href="https://www.linkedin.com/company/18458141/" target="_blank" alt="Ling to the linkin website - JMC consulting"><img class="socialIcons" src="content/ICONS/linkedin_Logo.png" alt="JMC consultancy - Icon for linkedin"></a>
 			</div>
 	</div>
 </div>

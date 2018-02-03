@@ -25,4 +25,8 @@ input, textarea{
   width: 100%;
 }
 
+#socialIconsHolder{
+	float: left;
+}
+
 } /* END OF THE MEDIA QUERY 600PX */

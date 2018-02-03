@@ -6,6 +6,11 @@ $(document).ready(function(){
 	});
 
 
+    $("#scrollDownHomepage").on('click', function(){
+        $('html,body').animate({
+            scrollTop: $('#weAreJourneySection').offset().top
+        },1000);
+     });
 
 /*==================================================
            VALIDATION FORM FROM HERE

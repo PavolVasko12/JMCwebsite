@@ -4,6 +4,10 @@
               HOMEPAGE FROM HERE
   =========================================== */
 
+  #homepage{
+    min-height: 250px;
+  }
+
   #topTextHomepage{
     font-size: 70px;
   }
@@ -23,6 +27,7 @@
   #weAreJourneySection{
     height:auto;
     display:block;
+    min-height: 300px;
   }
 
   #leftJourney{
@@ -58,18 +63,29 @@
     margin-bottom: 50px;
   }
 
+  #textJourney{
+    font-size: 25px;
+  }
+
   /* ==========================================
               ABOUT US FROM HERE - PAV
   =========================================== */
 
   #aboutSection{
     display: block;
+    padding-bottom: 150px;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    max-width: 100%;
+    min-height: 400px;
   }
+
 
   #leftAbout{
     padding-top:0;
     margin-top: 50px;
-    width:90%;
+    width: 100%;
   }
 
   #textHolderAbout{
@@ -80,6 +96,10 @@
     width:90%;
     position: relative;
     bottom: -25px;
+  }
+
+  #cubeImage{
+    padding-top: 50px;
   }
 
   /* ==========================================
@@ -136,7 +156,7 @@
   }
 
   input, textarea{
-    width: 100%;
+    width: 90%;
     padding-left: 20px;
   }
 
@@ -152,6 +172,10 @@
   #successFormMessagePHP {
     width: 95%;
     margin-top: 0px;
+}
+
+#submitFormButton{
+  margin-right: 0px;
 }
 
 } /* END OF THE MEDIA QUERY 600PX */

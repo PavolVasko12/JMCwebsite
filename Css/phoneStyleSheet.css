@@ -1,6 +1,5 @@
 @media screen and (max-width: 600px) {
 
-<<<<<<< HEAD
   /* ==========================================
               HOMEPAGE FROM HERE
   =========================================== */
@@ -101,6 +100,10 @@
 
   input, textarea{
     width: 100%;
+  }
+
+  #socialIconsHolder{
+  	float: left;
   }
 
 } /* END OF THE MEDIA QUERY 600PX */

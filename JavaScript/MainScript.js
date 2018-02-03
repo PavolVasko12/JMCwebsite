@@ -47,6 +47,7 @@ $('#submitFormButton').on('click', function(){
              $('#labelErrorNameTextRed').css('color', '#ef5656');
              $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
+              $(':input[type="submit"]').css('color', 'lightgray');
              $('#name').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
         }
@@ -56,25 +57,25 @@ $('#submitFormButton').on('click', function(){
             $('#labelErrorEnquiryTextRed').css('color', '#ef5656');
             $('#socialIconsHolder').css('margin-top', '66px');
             $(':input[type="submit"]').prop('disabled', true);
+             $(':input[type="submit"]').css('color', 'lightgray');
             $('#requiredFieldsMessage').css('display', 'block');
-             $('#errorMessage, #successFormMessagePHP').css('display', 'none');
+            $('#errorMessage, #successFormMessagePHP').css('display', 'none');
         }
 
     if(!pattern.test(userInput))
     {
-            $('#labelErrorEmailTextRed').css('color', '#ef5656');
+             $('#labelErrorEmailTextRed').css('color', '#ef5656');
              $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
+             $(':input[type="submit"]').css('color', 'lightgray');
              $('#requiredFieldsMessage').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
     }
 
     if(name != "" && enquiry != "")
     {
-        console.log('Name : ' + name + ", Enquiry : " + enquiry + ", Email : " + userInput);
         if(pattern.test(userInput))
             {
-                console.log("SENDING FORM");
                 $(':input[type="submit"]').prop('disabled', false);
                 $('#socialIconsHolder').css('margin-top', '66px');
                 $('#requiredFieldsMessage').css('display', 'none');

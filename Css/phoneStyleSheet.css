@@ -1,3 +1,81 @@
 @media screen and (max-width: 600px) {
 
+  /* ==========================================
+              HOMEPAGE FROM HERE
+  =========================================== */
+
+  #topTextHomepage{
+    font-size: 70px;
+  }
+
+  #bottomTextHomepage{
+    font-size: 25px;
+  }
+
+  /* ==========================================
+              WE ARE JOURNEY FROM HERE - PAV
+  =========================================== */
+
+  #weAreJourneySection{
+    height:auto;
+  }
+
+  #leftJourney{
+    padding-top: 0;
+    margin-top: 50px;
+  }
+
+  #leftJourney{
+    width:100%;
+  }
+
+  #textHolderJourney{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #textHolderJourney{
+    margin-right: 0;
+    width:100%;
+  }
+
+  #rightJourney{
+    width:100%;
+    float: none;
+    padding-top: 0;
+  }
+
+  #peopleImage{
+    width:100%;
+    padding-top: 0;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  /* ==========================================
+              SERVICES FROM HERE - PAV
+  =========================================== */
+
+  #serviceTitle{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .oneServiceContent{
+    width:100%;
+  }
+
+  .oneServiceContent p{
+    padding-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .secondTitleService{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
 } /* END OF THE MEDIA QUERY 600PX */

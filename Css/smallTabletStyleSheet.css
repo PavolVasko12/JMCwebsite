@@ -1,3 +1,31 @@
 @media screen and (max-width: 800px) {
 
+	/* ==========================================
+							WE ARE JOURNEY FROM HERE - PAV
+	=========================================== */
+
+	#weAreJourneySection{
+		height:auto;
+	}
+
+	#leftJourney{
+		padding-top: 0;
+		margin-top: 50px;
+	}
+
+	#textJourney{
+		margin-bottom: 50px;
+	}
+
+	#rightJourney{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 0;
+	}
+
+	#peopleImage{
+		width:100%;
+	}
+
 	} /* END OF THE MEDIA QUERY 800PX */

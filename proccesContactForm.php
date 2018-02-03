@@ -9,8 +9,8 @@ $formErrors = false;
 $headers = 'From: info@pavolvasko.co.uk' . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-$to = "james.murdoch@live.co.uk";
-$subject = "Pavol Vasko - Online form";
+$to = "info@pavolvasko.co.uk"; //james.murdoch@live.co.uk
+$subject = "JMC - Online form";
 $message = "Name: " . $name . "\n\nMessage: \n" . $enquiry;
 
     if($name === '') :

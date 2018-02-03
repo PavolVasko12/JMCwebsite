@@ -19,14 +19,17 @@ $('#name,#messageContactUs,#email').on('input',function(){
     var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
     if(nameFromForm != "")
         {
+           $('#labelErrorNameTextRed').css('color', 'gray');
            $(':input[type="submit"]').prop('disabled', false);
         }
     if(messageForm != "")
         {
+           $('#labelErrorEnquiryTextRed').css('color', 'gray');
            $(':input[type="submit"]').prop('disabled', false);
         }
      if(pattern.test(userInput))
         {
+             $('#labelErrorEmailTextRed').css('color', 'gray');
              $(':input[type="submit"]').prop('disabled', false);
         }
 });
@@ -42,8 +45,9 @@ $('#submitFormButton').on('click', function(){
     if(name == "")
         {
              $('#labelErrorNameTextRed').css('color', '#ef5656');
-             $('#contactFormJMCtext').css('margin-top', '66px');
+             $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
+              $(':input[type="submit"]').css('color', 'lightgray');
              $('#name').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
         }
@@ -51,27 +55,29 @@ $('#submitFormButton').on('click', function(){
     if(enquiry == "")
         {
             $('#labelErrorEnquiryTextRed').css('color', '#ef5656');
-            $('#contactFormJMCtext').css('margin-top', '66px');
+            $('#socialIconsHolder').css('margin-top', '66px');
             $(':input[type="submit"]').prop('disabled', true);
+             $(':input[type="submit"]').css('color', 'lightgray');
             $('#requiredFieldsMessage').css('display', 'block');
-             $('#errorMessage, #successFormMessagePHP').css('display', 'none');
+            $('#errorMessage, #successFormMessagePHP').css('display', 'none');
         }
 
     if(!pattern.test(userInput))
     {
-            $('#labelErrorEmailTextRed').css('color', '#ef5656');
-             $('#contactFormJMCtext').css('margin-top', '66px');
+             $('#labelErrorEmailTextRed').css('color', '#ef5656');
+             $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
+             $(':input[type="submit"]').css('color', 'lightgray');
              $('#requiredFieldsMessage').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
     }
 
     if(name != "" && enquiry != "")
     {
-        if(result == resultFromForm && pattern.test(userInput))
+        if(pattern.test(userInput))
             {
                 $(':input[type="submit"]').prop('disabled', false);
-                $('#contactFormJMCtext').css('margin-top', '66px');
+                $('#socialIconsHolder').css('margin-top', '66px');
                 $('#requiredFieldsMessage').css('display', 'none');
                 $('#successFormMessage').css('display', 'block');
                 $('#errorMessage').css('display', 'none');

@@ -333,6 +333,11 @@ nav ul li a:hover{
             ABOUT US FROM HERE - PAV
 =========================================== */
 
+#aboutUsGrayHolder{
+  width: 100%;
+  background-color: #efefef;
+  display: block;
+}
 #aboutSection{
   width: 1200px;
   height: 100vh;
@@ -341,9 +346,6 @@ nav ul li a:hover{
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
-  /*padding-top: 150px;*/
-  overflow: auto;
-  /*padding-bottom: 150px;*/
 }
 
 #leftAbout{
@@ -712,18 +714,9 @@ label:after { content: ": " }
   width: 350px;
   max-width: 100%;
   margin-top: -100px;
+  margin-bottom: 66px;
 }
 
-#contactFormJMCtext{
-  font-family: LeagueSpartan;
-  font-size: 120px;
-  color: #fff;
-  float: right;
-  line-height: 0px;
-  width: 200px;
-  text-align: right;
-  margin-right: 5%;
-}
 
 #socialIconsHolder{
 width: 120px;

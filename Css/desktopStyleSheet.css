@@ -714,16 +714,6 @@ label:after { content: ": " }
   margin-top: -100px;
 }
 
-#contactFormJMCtext{
-  font-family: LeagueSpartan;
-  font-size: 120px;
-  color: #fff;
-  float: right;
-  line-height: 0px;
-  width: 200px;
-  text-align: right;
-  margin-right: 5%;
-}
 
 #socialIconsHolder{
 width: 120px;

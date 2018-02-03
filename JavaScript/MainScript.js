@@ -42,7 +42,7 @@ $('#submitFormButton').on('click', function(){
     if(name == "")
         {
              $('#labelErrorNameTextRed').css('color', '#ef5656');
-             $('#contactFormJMCtext').css('margin-top', '66px');
+             $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
              $('#name').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
@@ -51,7 +51,7 @@ $('#submitFormButton').on('click', function(){
     if(enquiry == "")
         {
             $('#labelErrorEnquiryTextRed').css('color', '#ef5656');
-            $('#contactFormJMCtext').css('margin-top', '66px');
+            $('#socialIconsHolder').css('margin-top', '66px');
             $(':input[type="submit"]').prop('disabled', true);
             $('#requiredFieldsMessage').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
@@ -60,7 +60,7 @@ $('#submitFormButton').on('click', function(){
     if(!pattern.test(userInput))
     {
             $('#labelErrorEmailTextRed').css('color', '#ef5656');
-             $('#contactFormJMCtext').css('margin-top', '66px');
+             $('#socialIconsHolder').css('margin-top', '66px');
              $(':input[type="submit"]').prop('disabled', true);
              $('#requiredFieldsMessage').css('display', 'block');
              $('#errorMessage, #successFormMessagePHP').css('display', 'none');
@@ -68,10 +68,12 @@ $('#submitFormButton').on('click', function(){
 
     if(name != "" && enquiry != "")
     {
-        if(result == resultFromForm && pattern.test(userInput))
+        console.log('Name : ' + name + ", Enquiry : " + enquiry + ", Email : " + userInput);
+        if(pattern.test(userInput))
             {
+                console.log("SENDING FORM");
                 $(':input[type="submit"]').prop('disabled', false);
-                $('#contactFormJMCtext').css('margin-top', '66px');
+                $('#socialIconsHolder').css('margin-top', '66px');
                 $('#requiredFieldsMessage').css('display', 'none');
                 $('#successFormMessage').css('display', 'block');
                 $('#errorMessage').css('display', 'none');

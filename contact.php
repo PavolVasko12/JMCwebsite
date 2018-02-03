@@ -10,7 +10,7 @@
 	          <input type="email" class="contactUsInput" id="email" name="email" placeholder="">
 	          <label id="labelErrorEnquiryTextRed" for="messageContactUs">MESSAGE</label>
 	          <textarea id="messageContactUs" placeholder="" rows="5" name="messageBox"></textarea>
-	          <input id="submitFormButton" type="submit" name="action" value="SEND">   
+	          <input id="submitFormButton" type="submit" name="action" value="SEND">
        		</form>
        		 <p id="requiredFieldsMessage">Please check required fields</p>
 			<?php if (isset($errorMsg)) { echo '<p id="errorMessage">', $errorMsg , '</p>'; } ?>

@@ -336,6 +336,7 @@ nav ul li a:hover{
 #aboutUsGrayHolder{
   width: 100%;
   background-color: #efefef;
+  display: block;
 }
 #aboutSection{
   width: 1200px;
@@ -345,7 +346,6 @@ nav ul li a:hover{
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
-  overflow: auto;
 }
 
 #leftAbout{

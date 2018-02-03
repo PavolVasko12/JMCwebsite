@@ -1,7 +1,7 @@
 <div id="contactFormSection">
 	<div id="holderForContactForm">
 			<h1 class="titleSection journey">JOURNEY</h1>
-			<h1 class="titleSection">Get in touch</h1>
+			<h1 class="titleSection getInTouch">Get in touch</h1>
 			<h4 id="journeyBeginsText">This is where the journey begins...</h4>
 			<form id="contactForm" name="contactForm" action="#contactForm" method="POST" autocomplete="off">
 			  <label id="labelErrorNameTextRed" for="name">NAME</label>

@@ -1,3 +1,28 @@
 @media screen and (max-width: 600px) {
 
+
+/*==========================================
+            CONTACT US FROM HERE
+=========================================== */
+
+#contactFormSection{
+	padding-bottom: 200px;
+}
+
+.journey{
+	float: left;
+	width: 100%;
+}
+
+form{
+  width: 100%;
+  margin-left: 0%;
+  height: auto;
+  overflow: none;
+}
+
+input, textarea{
+  width: 100%;
+}
+
 } /* END OF THE MEDIA QUERY 600PX */

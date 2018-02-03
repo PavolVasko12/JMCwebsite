@@ -5,12 +5,11 @@ $(document).ready(function(){
 		$("#nav").toggleClass("navToggle");
 	});
 
-
-    $("#scrollDownHomepage").on('click', function(){
+     $('#scrollDownHomepage').on('click', function(){
         $('html,body').animate({
             scrollTop: $('#weAreJourneySection').offset().top
         },1000);
-     });
+    });
 
 /*==================================================
            VALIDATION FORM FROM HERE

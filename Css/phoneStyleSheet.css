@@ -1,32 +1,109 @@
 @media screen and (max-width: 600px) {
 
+  /* ==========================================
+              HOMEPAGE FROM HERE
+  =========================================== */
 
-/*==========================================
-            CONTACT US FROM HERE
-=========================================== */
+  #topTextHomepage{
+    font-size: 70px;
+  }
 
-#contactFormSection{
-	padding-bottom: 200px;
-}
+  #bottomTextHomepage{
+    font-size: 25px;
+  }
 
-.journey{
-	float: left;
-	width: 100%;
-}
+  /* ==========================================
+              WE ARE JOURNEY FROM HERE - PAV
+  =========================================== */
 
-form{
-  width: 100%;
-  margin-left: 0%;
-  height: auto;
-  overflow: none;
-}
+  #weAreJourneySection{
+    height:auto;
+  }
 
-input, textarea{
-  width: 100%;
-}
+  #leftJourney{
+    padding-top: 0;
+    margin-top: 50px;
+  }
 
-#socialIconsHolder{
-	float: left;
-}
+  #leftJourney{
+    width:100%;
+  }
+
+  #textHolderJourney{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #textHolderJourney{
+    margin-right: 0;
+    width:100%;
+  }
+
+  #rightJourney{
+    width:100%;
+    float: none;
+    padding-top: 0;
+  }
+
+  #peopleImage{
+    width:100%;
+    padding-top: 0;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  /* ==========================================
+              SERVICES FROM HERE - PAV
+  =========================================== */
+
+  #serviceTitle{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .oneServiceContent{
+    width:100%;
+  }
+
+  .oneServiceContent p{
+    padding-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .secondTitleService{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  /*==========================================
+              CONTACT US FROM HERE
+  =========================================== */
+
+  #contactFormSection{
+  	padding-bottom: 200px;
+  }
+
+  .journey{
+  	float: left;
+  	width: 100%;
+  }
+
+  form{
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+    overflow: none;
+  }
+
+  input, textarea{
+    width: 100%;
+  }
+
+  #socialIconsHolder{
+  	float: left;
+  }
 
 } /* END OF THE MEDIA QUERY 600PX */

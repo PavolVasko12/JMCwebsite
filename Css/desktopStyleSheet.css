@@ -177,11 +177,11 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 #homepageContentHolder{
   width: 100%;
-  position: relative;
 }
 
 #topTextHomepage{
@@ -215,7 +215,7 @@ nav ul li a:hover{
   width: 1.6%;
   margin:auto;
   position: absolute;
-  bottom: 25px;
+  bottom: 10px;
 }
 
 /* ==========================================

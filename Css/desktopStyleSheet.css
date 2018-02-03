@@ -46,6 +46,11 @@ h4{
   color: white;
   font-size: 1em;
 }
+
+button{
+  -webkit-appearance: none;
+border-radius: 0;
+}
 /* ==========================================
             NAVIGATION FROM HERE
 =========================================== */
@@ -664,7 +669,7 @@ label{
 }
 
 input, textarea{
-  margin-right: 10px;
+  margin-right: 0px;
   width: 300px;
   float: right;
   padding-top: 14px;
@@ -687,6 +692,8 @@ label:after { content: ": " }
   margin-bottom: 20px;
   margin-right: 10px;
   transition: 1s;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 #submitFormButton:hover{

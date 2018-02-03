@@ -6,10 +6,10 @@ if(isset($_POST['firstName'])) { $name = $_POST['firstName'];}
 if(isset($_POST['email'])) { $email = $_POST['email'];}
 if(isset($_POST['messageBox'])) { $enquiry = $_POST['messageBox'];}
 $formErrors = false;
-$headers = 'From: info@pavolvasko.co.uk' . "\r\n" .
+$headers = 'From: james.murdoch@live.co.uk' . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-$to = "info@pavolvasko.co.uk"; //james.murdoch@live.co.uk
+$to = "james.murdoch@live.co.uk";
 $subject = "JMC - Online form";
 $message = "Name: " . $name . "\n\nMessage: \n" . $enquiry;
 

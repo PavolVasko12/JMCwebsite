@@ -19,14 +19,17 @@ $('#name,#messageContactUs,#email').on('input',function(){
     var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
     if(nameFromForm != "")
         {
+           $('#labelErrorNameTextRed').css('color', 'gray');
            $(':input[type="submit"]').prop('disabled', false);
         }
     if(messageForm != "")
         {
+           $('#labelErrorEnquiryTextRed').css('color', 'gray');
            $(':input[type="submit"]').prop('disabled', false);
         }
      if(pattern.test(userInput))
         {
+             $('#labelErrorEmailTextRed').css('color', 'gray');
              $(':input[type="submit"]').prop('disabled', false);
         }
 });

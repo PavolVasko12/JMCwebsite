@@ -6,6 +6,7 @@ $(document).ready(function(){
 	});
 
      $('#scrollDownHomepage').on('click', function(){
+        console.log("WORKS Mouse");
         $('html,body').animate({
             scrollTop: $('#weAreJourneySection').offset().top
         },1000);

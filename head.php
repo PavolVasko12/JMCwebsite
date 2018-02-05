@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Css/bigTabletStyleSheet.css" type="text/css">
     <link rel="stylesheet" href="Css/smallTabletStyleSheet.css" type="text/css">
     <link rel="stylesheet" href="Css/phoneStyleSheet.css" type="text/css">
+    <link rel="stylesheet" href="Css/iphoneSEStyleSheet.css" type="text/css">
     <title>James Website</title>
 
 </head>

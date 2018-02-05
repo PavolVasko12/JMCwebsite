@@ -25,8 +25,7 @@
               <h2 id="bottomTextHomepage">PROJECT CONSULTING</h2>
             </div>
           </div>
-          <object data="content/scrollDown.svg" type="image/svg+xml" id="scrollDownHomepage">
-          </object>
+          <img id="scrollDownHomepage" src="content/scrollDown.svg" type="image/svg+xml" />
         </div>
 
     	<!-- ---------------- INTRODUCTION FROM HERE ----------------- -->

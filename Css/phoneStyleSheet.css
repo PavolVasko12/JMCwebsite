@@ -79,6 +79,7 @@
     padding-right: 0%;
     max-width: 100%;
     min-height: 400px;
+    height: auto;
   }
 
 
@@ -95,7 +96,8 @@
   #rightAbout{
     width:90%;
     position: relative;
-    bottom: -25px;
+    bottom: -75px;
+    margin: auto;
   }
 
   #cubeImage{

@@ -12,7 +12,7 @@
 	    </div>
 	  </div>
 	  <div id="rightAbout">
-	  	<img id="cubeImage" src="content/Cube.svg" alt="JMC consulting - about us image of a cube">
+	  	<object data="content/aboutUsImage.svg" type="image/svg+xml" id="imageAboutUs">Your browser does not support SVGs</object>
 	  </div>
 	</div>
 </div>
